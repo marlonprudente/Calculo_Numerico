@@ -1,0 +1,57 @@
+Calculo Numérico - Métodos para encontrar raizes da função: 
+F -> Bisseccao: 
+i = 0, Ea = 0, Xr = 14
+i = 1, Ea = 0.0666667, Xr = 15
+i = 2, Ea = 0.0344828, Xr = 14.5
+i = 3, Ea = 0.0169492, Xr = 14.75
+i = 4, Ea = 0.00840336, Xr = 14.875
+i = 5, Ea = 0.00421941, Xr = 14.8125
+i = 6, Ea = 0.00211416, Xr = 14.7812
+i = 7, Ea = 0.0010582, Xr = 14.7656
+i = 8, Ea = 0.000528821, Xr = 14.7734
+i = 9, Ea = 0.00026434, Xr = 14.7773
+F -> Falsa Posição: 
+i = 0, Ea = 2.91131, Xr = 14.9113
+i = 1, Ea = 2.7942, Xr = 14.7942
+i = 2, Ea = 2.7817, Xr = 14.7817
+i = 3, Ea = 2.78037, Xr = 14.7804
+i = 4, Ea = 2.78022, Xr = 14.7802
+i = 5, Ea = 2.78021, Xr = 14.7802
+i = 6, Ea = 2.86102e-06, Xr = 14.7802
+i = 7, Ea = 2.86102e-06, Xr = 14.7802
+i = 8, Ea = 2.86102e-06, Xr = 14.7802
+i = 9, Ea = 2.86102e-06, Xr = 14.7802
+F -> Newton - Raphson: 
+i = 1, Xr = 14.4897
+i = 2, Xr = 14.7769
+F -> Secante: 
+i = 1, Xr = 14.7493
+G -> Bisseccao: 
+i = 0, Ea = 0, Xr = 15
+i = 1, Ea = 0.0344828, Xr = 14.5
+i = 2, Ea = 0.0175439, Xr = 14.25
+i = 3, Ea = 0.00884956, Xr = 14.125
+i = 4, Ea = 0.00444444, Xr = 14.0625
+i = 5, Ea = 0.00222717, Xr = 14.0312
+i = 6, Ea = 0.00111483, Xr = 14.0156
+i = 7, Ea = 0.000557725, Xr = 14.0078
+i = 8, Ea = 0.00027894, Xr = 14.0039
+i = 9, Ea = 0.000139489, Xr = 14.002
+G -> Falsa Posição: 
+i = 0, Ea = 34.5507, Xr = -22.5507
+i = 1, Ea = nan, Xr = nan
+i = 2, Ea = nan, Xr = nan
+i = 3, Ea = nan, Xr = nan
+i = 4, Ea = nan, Xr = nan
+i = 5, Ea = nan, Xr = nan
+i = 6, Ea = nan, Xr = nan
+i = 7, Ea = nan, Xr = nan
+i = 8, Ea = nan, Xr = nan
+i = 9, Ea = nan, Xr = nan
+G -> Newton - Raphson: 
+i = 1, Xr = -17.8189
+G -> Secante: 
+i = 1, Xr = 12
+i = 2, Xr = 11.6706
+i = 3, Xr = 11.6706
+i = 4, Xr = -17.4077
