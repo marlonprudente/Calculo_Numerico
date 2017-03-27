@@ -25,6 +25,13 @@ using namespace std;
  */
 
 int main(int argc, char** argv) {
+    float xl = 12;
+    float xu = 16;
+    float xi = 12;
+    float es = 0.05;
+    int imax = 10;
+    
+     
     
     funcao_f f ;
     funcao_g g;
@@ -34,24 +41,23 @@ int main(int argc, char** argv) {
     file.close();
     cout <<"Funcao F:"<<endl;
     cout << "Bisseccao:"<< endl;
-    cout << f.bisseccao(12,16,0.5,10) << endl;
+    cout << f.bisseccao(xl,xu,es,imax) << endl;
     cout << "Falsa Posição:"<< endl;
-    cout << f.falsa_posicao(12,16,0.5,10) << endl;
+    cout << f.falsa_posicao(xl,xu,es,imax) << endl;
     cout << "Newton-Raphson:"<< endl;
-    cout << f.newton_raphson(12,0.5,10) << endl;
+    cout << f.newton_raphson(xi,es,imax) << endl;
     cout << "Secante:"<< endl;
-    cout << f.secante(12,0.5,10) << endl;
+    cout << f.secante(xi,es,imax) << endl;
     
     cout <<"Funcao G:"<<endl;
     cout << "Bisseccao:"<< endl;
-    cout << g.bisseccao(14,16,0.5,10) << endl;
+    cout << g.bisseccao(xl,xu,es,imax) << endl;
     cout << "Falsa Posição:"<< endl;
-    cout << g.falsa_posicao(12,16,0.5,10) << endl;
+    cout << g.falsa_posicao(xl,xu,es,imax) << endl;
     cout << "Newton-Raphson:"<< endl;
-    cout << g.newton_raphson(12,0.5,10) << endl;
+    cout << g.newton_raphson(xi,es,imax) << endl;
     cout << "Secante:"<< endl;
-    cout << g.secante(12,0.5,10) << endl;
-
+    cout << g.secante(xi,es,imax) << endl;
     return 0;
 }
 
